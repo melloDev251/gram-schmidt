@@ -28,9 +28,10 @@
     Caractéristiques : Cette implémentation a une complexité temporelle O(m n^2)
     et nécessite O(1) mémoire supplémentaire.
 
-    Remarques : En raison de la nature du problème, si A est presque
+    Remarques : En raison de la nature du problème, si A est presque 
     rank-deficient, les colonnes résultantes de Q peuvent ne pas
     présentent la propriété d'orthogonalité. */
+    
 
 void gramSchmidt (double ** a, double ** r, int m, int n, bool full) {
     int i, j;
